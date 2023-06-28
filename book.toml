@@ -21,3 +21,7 @@ boost-title = 4
 [output.html.fold]
 enable = true
 level = 0
+
+[output.html.redirect]
+"/guides/ifStatements.html" = "./general/ifStatements.html"
+"/httpGet.html" = "../guides/general/httpRequests.html"
