@@ -49,7 +49,7 @@ $endif
 ![Usage 1](https://user-images.githubusercontent.com/70456337/194143799-a48e72cb-5947-4657-99d3-d4bafaef5eb5.png)
 # Multi-Select Menu
 In the Select Menu you can choose not only one option, but several at once.
-You could understand this by the presence of arguments `Min` and `Max`.
+You could understand this by the presence of `Min` and `Max` arguments.
 
 ## Example
 ### Select Menu Code
