@@ -1,7 +1,7 @@
 # Variables
 ## Introduction
 Variables are how we store data in BDFD. Data can be assigned to users, servers, channels, and globally.
-Each variable has two elements, which we will breakdown in this section.
+Each variable has two elements, which we will break down in this section.
 
 ### Variable Elements
 - `Name`: The name of the variable. This can't be modified by the bot, its used to "call" the current variable.
@@ -29,7 +29,7 @@ Here's how to create a variable, which you can get and modify later:
 ### Editing Variables
 Here's how you can modify an existing variable's name/default value:
 
-1. Select the bot you want to edit the variable for.
+1. Select the bot for which you want to edit the variable.
 2. Go to "Variables" tab.
 
     ![ex2](https://i.ibb.co/ng3yJNn/Screenshot-20220717-132641.png)
@@ -63,7 +63,7 @@ Here's how you can delete variables:
 [`$setVar`](../../bdscript/setVar.md)/[`$getVar`](../../bdscript/getVar.md) are global variable functions, which means they apply universally *(i.e they don't change per-server, per-channel, or per-user)*.\
 However, if you provide a user ID in the optional `User ID` parameter then it becomes a global-user variable.
 
-Global-user variables value stay same with the user in every server. The usage of global-user variables looks like this:
+Global-user variables retain the same value for the user across all servers. The usage of global-user variables looks like this:
 - `$setVar[Variable Name;New Value;User ID]`
 - `$getVar[Variable Name;User ID]`
 
@@ -283,4 +283,4 @@ You can generate variable leaderboards, using the functions below.
 - [$globalUserLeaderboard](../../bdscript/globalUserLeaderboard.md) - Global-User Variables.
 - [$userLeaderboard](../../bdscript/userLeaderboard.md) - User Variables.
 - [$serverLeaderboard](../../bdscript/serverLeaderboard.md) - Server Variables.
-- [$getLeaderboardValue](../../bdscript/getLeaderboardValue.md) - Fetchs leaderboard value.
+- [$getLeaderboardValue](../../bdscript/getLeaderboardValue.md) - Fetches leaderboard value.
