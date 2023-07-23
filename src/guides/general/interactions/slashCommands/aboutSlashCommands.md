@@ -1,12 +1,12 @@
 # Slash Commands
 In this guide, you will learn more about implementing slash commands to your bot.
 
-Slash commands are type of interactive application commands. It let's users to interact with your bot by typing `/<command name>`.
+Slash commands are a type of interactive application commands. It let's users to interact with your bot by typing `/<command name>`.
 
 ![preview](https://i.imgur.com/kLNyEby.jpg) 
 
 # General information
-- Discord allows up to 200 slash commands _(100 global & 100 guild based commands)_.
+- Discord allows up to 200 slash commands _(100 global & 100 guild-based commands)_.
 - To use slash commands, you need to invite the bot with `applications.commands` scope.
 - Creating/modifying/deleting global slash commands might take up to **1 hour**.
 - Creating a guild slash command is instant but it won't appear unless you have registered them in the current guild using `$registerGuildCommands[(slash command name;...)]` function.
@@ -35,7 +35,7 @@ Before you start, you need **2.0.18** version of the app or later.
 - Create or modify an existing command.
 - Click *"Slash command trigger"*.
 - Choose *"Enable global slash command"* or *"Enable guild slash command"* as per your preference.
-- Fill-up necessary data and save it.
+- Fill up the necessary data and save it.
 
 > 📝 Slash commands can have a maximum of 4000 characters _(combined name, description, and value properties)_ per slash.
 
