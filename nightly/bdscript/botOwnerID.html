@@ -21,6 +21,9 @@
         <link rel="stylesheet" href="../theme/css/chrome.css">
         <link rel="stylesheet" href="../theme/css/print.css" media="print">
 
+        <!-- Discord Components -->
+        <script type="module" src="https://unpkg.com/@skyra/discord-components-core"></script>
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
@@ -173,8 +176,14 @@
 <pre><code>$nomention
 My owner's ID: $botOwnerID
 </code></pre>
-<p><img src="https://user-images.githubusercontent.com/113303649/210353474-b094289c-3bec-4e6c-b8cc-c9ac79f0f43d.png" alt="example" /></p>
-
+<discord-messages>
+    <discord-message author="Nicky" role-color="#EE7908">
+        !botOwnerID
+    </discord-message>
+    <discord-message author="Wiki Bot" role-color="#748BD4" bot>
+        My owner's ID: 729343563401265193
+    </discord-message>
+</discord-messages>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
