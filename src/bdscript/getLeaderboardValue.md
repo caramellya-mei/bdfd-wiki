@@ -38,3 +38,8 @@ $description[#1 - $getLeaderboardValue[globalUser;Money;asc;1]
 $color[FFFF00]
 $c[This is for global-user variables.]
 ```
+
+```discord yaml
+- username: joe
+  content: biden
+```
