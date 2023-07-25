@@ -41,5 +41,6 @@ $c[This is for global-user variables.]
 
 ```discord yaml
 - username: joe
-  content: biden
+  content: |
+    biden
 ```
