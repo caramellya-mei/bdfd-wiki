@@ -214,8 +214,24 @@ $color[FFFF00]
 $c[This is for global-user variables.]
 </code></pre>
 <discord-messages>
-    <discord-message author="joe">
+    <discord-message bot author="joe" verified>
         biden
+        <discord-embed embed-title="title" slot="embeds">
+            <discord-embed-description slot="description">
+                desc
+            </discord-embed-description>
+            <discord-embed-fields slot="fields">
+                <discord-embed-field inline field-title="field" inline-index="1">
+                    value
+                </discord-embed-field>
+                <discord-embed-field inline inline-index="2" field-title="field">
+                    but inline
+                </discord-embed-field>
+            </discord-embed-fields>
+            <discord-embed-footer timestamp="07/25/2023" slot="footer">
+                footer
+            </discord-embed-footer>
+        </discord-embed>
     </discord-message>
 </discord-messages>
                     </main>
