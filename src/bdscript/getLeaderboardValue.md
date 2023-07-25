@@ -43,14 +43,20 @@ $c[This is for global-user variables.]
 - username: joe
   bot: true
   verified: true
-  content: |
-    biden
+  content: biden
   embed:
     title: title
-    description: description
-    footer: footer
+    description: desc
+    footer:
+      text: footer
     timestamp: 07/25/2023
     fields:
       - name: field
         value: value
+        inline: true
+        inline_index: 1
+      - name: field
+        value: but inline
+        inline: true
+        inline_index: 2
 ```
