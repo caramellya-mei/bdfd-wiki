@@ -49,7 +49,7 @@ $c[This is for global-user variables.]
   username: Wiki Bot
   color: "#748BD4"
   bot: true
-  content: " "
+  content: <none>
   embed:
     description: "\"cock\""
 
@@ -61,7 +61,7 @@ $c[This is for global-user variables.]
 - username: gay
   color: "#748BD4"
   bot: true
-  content: " "
+  content: <none>
   embed:
     description: "\"sex\""
 ```
