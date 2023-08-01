@@ -174,7 +174,6 @@
 <h2 id="functions-used"><a class="header" href="#functions-used">Functions Used</a></h2>
 <ul>
 <li><a href="../../bdscript/nomention.html"><code>$nomention</code></a></li>
-<li><a href="../../bdscript/reply.html"><code>$reply</code></a></li>
 </ul>
 <h1 id="step-1-creating"><a class="header" href="#step-1-creating">Step 1: Creating</a></h1>
 <ul>
@@ -202,7 +201,7 @@
 <li>Open the BDFD app and select your bot.</li>
 <li>Click on the <em>&quot;Invite bot to server&quot;</em> button.</li>
 <li>Press the <em>&quot;Edit invite link permissions&quot;</em> button and choose the permissions that the bot will have when joining a server.</li>
-<li>Then, click on <em>&quot;Add your bot to your server&quot;</em> and selected the server.</li>
+<li>Then, click on <em>&quot;Add your bot to your server&quot;</em> and select the server.</li>
 <li>Click on <em>the &quot;Continue&quot;</em> button and your bot will be added to the selected server.</li>
 </ul>
 <h1 id="step-3-first-code"><a class="header" href="#step-3-first-code">Step 3: First Code</a></h1>
@@ -213,12 +212,11 @@ You will see 3 categories (&quot;Command Name&quot;, &quot;Command Trigger&quot;
 <li>Now come up with a trigger for the command. (Example: <code>!ping</code>).</li>
 </ul>
 <blockquote>
-<p>It is important that the trigger of the command matches its meaning.
-After completing the command setup, press the <em>&quot;Create Command&quot;</em> button. Now you can create your first code!
-In &quot;Reply Message&quot; you can paste this code:</p>
+<p>It is important that the trigger of the command matches its meaning.</p>
 </blockquote>
+<p>After completing the command setup, press the <em>&quot;Create Command&quot;</em> button. Now you can create your first code!
+In &quot;Reply Message&quot; you can paste this code:</p>
 <pre><code>$nomention
-$reply
 Pong!
 </code></pre>
 <ul>
@@ -230,6 +228,9 @@ Pong!
 <li>Click on the <em>&quot;Dashboard&quot;</em> tab after selecting your bot and press on the <em>&quot;+ Add free hosting time&quot;</em> button.</li>
 <li>Enter the indicated numbers and click <em>&quot;Confirm&quot;</em>.</li>
 </ul>
+<blockquote>
+<p>Note: This method only works when your bot is offline.</p>
+</blockquote>
 <h3 id="method-2---140-minutes"><a class="header" href="#method-2---140-minutes">Method 2 - 140 Minutes</a></h3>
 <ul>
 <li>Press on <em>&quot;Dashboard&quot;</em> tab after selecting your bot and click on <em>&quot;+ Watch ad for 140 minutes of free hosting time&quot;</em>.</li>
@@ -244,8 +245,14 @@ Pong!
 </blockquote>
 <h2 id="step-5-test-it"><a class="header" href="#step-5-test-it">Step 5: Test it!</a></h2>
 <p>Send a <code>!ping</code> command in a channel of the server you invited your bot to.</p>
-<p><img src="https://github.com/Rainb0wKey/bdfd-wiki/assets/113303649/5a5eca33-6c2b-4e46-8283-a6312462f6f5" alt="example" /></p>
-
+<discord-messages>
+    <discord-message role-color="#E67E22" avatar="https://github.com/NilPointer-Software/bdfd-wiki/assets/113303649/a9034fd5-40c2-4320-a408-2f2ee0071d9d" author="RainbowKey">
+        !ping
+    </discord-message>
+    <discord-message avatar="https://github.com/NilPointer-Software/bdfd-wiki/assets/113303649/e5fdc906-6c14-4e19-91c0-4ce95b852c61" author="BDFD Support" role-color="#378afa" bot verified>
+        Pong!
+    </discord-message>
+</discord-messages>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
