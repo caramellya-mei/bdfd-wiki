@@ -40,23 +40,28 @@ $c[This is for global-user variables.]
 ```
 
 ```discord yaml
-- username: joe
+- username: Nicky
+  color: "#EE7908"
+  content: |
+    hello
+
+- user_id: 566613317972394004
+  username: Wiki Bot
+  color: "#748BD4"
   bot: true
-  verified: true
-  content: biden
+  content: " "
   embed:
-    title: title
-    description: desc
-    footer:
-      text: footer
-    timestamp: 07/25/2023
-    fields:
-      - name: field
-        value: value
-        inline: true
-        inline_index: 1
-      - name: field
-        value: but inline
-        inline: true
-        inline_index: 2
+    description: "\"cock\""
+
+- username: sex
+  color: "#EE7908"
+  content: |
+    gay
+
+- username: gay
+  color: "#748BD4"
+  bot: true
+  content: " "
+  embed:
+    description: "\"sex\""
 ```
